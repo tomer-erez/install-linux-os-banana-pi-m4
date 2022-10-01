@@ -156,6 +156,8 @@ sudo dd if=your_image_file of=/dev/mmcblk1 bs=10MB.
 ```
 after 10-20 minutes the proccess should end.
 
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/done.jpeg)
+
 turn off the banana pi and extract both sd cards: the one with the usb adaptor and the one in the sd card slot.
 
 turn on the banana pi.
