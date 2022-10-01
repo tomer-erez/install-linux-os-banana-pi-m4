@@ -101,7 +101,7 @@ disconnect the usb and connect it again, now the system should recognize it.
 open the ubuntu mate terminal.
 
 if you can't see it on the top menu bar, look at the menu bar: Applications->system tools->Mate terminal.
-
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/find%20terminal-1.jpg)
 type the following command sudo fdisk -l.   (that's a lower case l in the end :)
 
 if the terminal asks for a password the default one should be: bananapi .
