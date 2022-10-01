@@ -1,4 +1,5 @@
 equipment: 2 sd cards, each one should be at least 8GB, but ideally one of those would be 64+ GB.
+
 sd card to usb adaptor.
 
 softwares to download:
