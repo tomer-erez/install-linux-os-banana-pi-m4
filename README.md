@@ -10,13 +10,13 @@ balenaetcher: https://www.balena.io/etcher/
 
 
 STEPS:
-
+https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sdformatter.pdf
 1. preaparing the sd card. 
 
 1.2 insert one of the 2 sd cards to your computer(the smaller sd card). 
 
 1.3 open the sdcard formatter you downloaded, click on format. when the warning shows click yes.
-
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sdformatter.pdf)
 1.4 download a linux image file. this image file is the operating system we wish to have on our banana pi.
 
 i will be downloading ubuntu 18.04 (zip file) from the following link:
