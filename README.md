@@ -3,18 +3,20 @@ equipment: 2 sd cards, each one should be at least 8GB, but ideally one of those
 softwares to download:
 
 sdcard formatter: https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/
+
 win32diskmanager: https://sourceforge.net/projects/win32diskimager/
+
 balenaetcher: https://www.balena.io/etcher/
 
 
 STEPS:
 1. preaparing the sd card. 
 
-1.2 insert one of the 2 sd cards to your computer(the smaller sd card). 
+1.1 insert one of the 2 sd cards to your computer(the smaller sd card). 
 
-1.3 open the sdcard formatter you downloaded, click on format. when the warning shows click yes.
+1.2 open the sdcard formatter you downloaded, click on format. when the warning shows click yes.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sdformatter-1.jpg)
-1.4 download a linux image file. this image file is the operating system we wish to have on our banana pi.
+1.3 download a linux image file. this image file is the operating system we wish to have on our banana pi.
 
 i will be downloading ubuntu 18.04 (zip file) from the following link:
 
@@ -22,14 +24,14 @@ https://download.banana-pi.dev/d/ca025d76afd448aabc63/?p=%2FImages%2FBPI-M4%2Fli
 
 extract the file into a folder on your computer.
 
-1.5 open win32diskmanager.
+1.4 open win32diskmanager.
 
 click the blue folder icon and choose the image file you just downloaded from wherever you saved it.
 
 click write and wait a few minutes for it to finish.
 
 
-1.6 open balenaetcher.
+1.5 open balenaetcher.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/balena1_page-0001.jpg)
 click flash from file and choose the same image file again.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/balena2_page-0001.jpg)
@@ -81,8 +83,10 @@ insert this sd card into a usb adaptor and connnect it to the banana pi.
 
 if the bananapi does not recognize the card or gives you an "unable to mount" error,
 
-type the following command in the MATE terminal(Applications->system tools->Mate terminal): sudo apt install exfat-fuse exfat-utils
-
+type the following command in the MATE terminal(Applications->system tools->Mate terminal):
+```
+sudo apt install exfat-fuse exfat-utils
+```
 (with internet connection only).
 
 disconnect the usb and connect it again, now the system should recognize it.
@@ -109,17 +113,24 @@ navigate with terminal to where the image file is. (on our second sd card).
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/cmd.png)
 
 in my case here are the commands to navigate:
-
+```
 cd ..
-
+```
+```
 cd ..
-
-cd media !!!!!!!!!!!!!!!!!!!!!
-
+```
+```
+cd media 
+```
+```
+cd <sd card name, could be BPI-ROOT>
+```
+```
 cd my_image
-
+```
+```
 ls
-
+```
 you are supposed to see the image file name.
 
 copy its whole name via CTRL+C.
@@ -129,9 +140,9 @@ type the following command:
 (instead of your_image_file, paste the image file name you just copied)
 
 (mmcblk0 or mmcblk1 according to where that 7 GB file is)
-
+```
 sudo dd if=your_image_file of=/dev/mmcblk0 bs=10MB.
-
+```
 after 10 minutes or so the proccess should end.
 
 turn off the banana pi and extract both sd cards: the one with the usb adaptor and the one in the sd card slot.
