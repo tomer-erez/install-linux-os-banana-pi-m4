@@ -10,13 +10,12 @@ balenaetcher: https://www.balena.io/etcher/
 
 
 STEPS:
-https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sdformatter.pdf
 1. preaparing the sd card. 
 
 1.2 insert one of the 2 sd cards to your computer(the smaller sd card). 
 
 1.3 open the sdcard formatter you downloaded, click on format. when the warning shows click yes.
-![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sdformatter.pdf)
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sdformatter-1.jpg)
 1.4 download a linux image file. this image file is the operating system we wish to have on our banana pi.
 
 i will be downloading ubuntu 18.04 (zip file) from the following link:
@@ -24,7 +23,6 @@ i will be downloading ubuntu 18.04 (zip file) from the following link:
 https://download.banana-pi.dev/d/ca025d76afd448aabc63/?p=%2FImages%2FBPI-M4%2Flinux&mode=list
 
 extract the file into a folder on your computer.
-
 
 1.5 open win32diskmanager.
 
@@ -34,11 +32,11 @@ click write and wait a few minutes for it to finish.
 
 
 1.6 open balenaetcher.
-
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/balena1_page-0001.jpg)
 click flash from file and choose the same image file again.
-
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/balena2_page-0001.jpg)
 click select target and choose the device to flash the image into, in this case the sd card.
-
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/balena3_page-0001.jpg)
 click flash and wait 5-10 minutes for it to finish. 
 
 once the flashing is finished eject the sd card from your computer.
@@ -49,22 +47,20 @@ once the flashing is finished eject the sd card from your computer.
 under your banana pi turn the bool sel switch to 0.
 
 insert your sd card into the micro sd slot thats under the banana pi.
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sel switch-1.jpg)
+plug-in the power supply for your banana pi.
 
-plug the power supply for your banana pi.
-
-connect an HDMI cable to a monitor, connect a mouse and keyboard to the banana's USB slots.
+connect an HDMI cable to a monitor and to the banana pi, connect a mouse and keyboard to the banana's USB slots.
 
 turn the banana pi on.
 
 you should see the default ubuntu desktop.
-
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/desktop screen.jpg)
 if you have gotten so far, every thing should work all right.
 
-now you could start using the browser, development tools and all the applications you can play with
-
-but we want to flash the image(operating system) on our EMMC,
-
-rather than using the sd card for the banana pi.
+now you could start using the browser, development tools and all the applications you can play with the apps
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/pre burn desktop.jpg)
+but we want to flash the image(operating system) on our EMMC,rather than using the sd card for the banana pi.
 
 so our next step is to burn this operating system on our banana pi.
 
@@ -72,6 +68,8 @@ so our next step is to burn this operating system on our banana pi.
 3. the other sd card.
 
 connect the other sd card to your computer.
+
+format the sd card with sd card formatter.
 
 open a folder in it called my_image or whatever name you want. 
 
