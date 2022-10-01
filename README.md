@@ -89,10 +89,11 @@ insert this sd card into a usb adaptor and connnect it to the banana pi.
 if the bananapi does not recognize the card or gives you an "unable to mount" error,
 
 type the following command in the MATE terminal(Applications->system tools->Mate terminal):
+(with internet connection only, sao connect an ethernet cable or connect to a wifi).
 ```
 sudo apt install exfat-fuse exfat-utils
 ```
-(with internet connection only).
+
 
 disconnect the usb and connect it again, now the system should recognize it.
 
@@ -163,6 +164,10 @@ turn off the banana pi and extract both sd cards: the one with the usb adaptor a
 turn on the banana pi.
 
 and you are done. you finished installing ubuntu mate on your banana pi.
+
+you can now use the device without those sd cards, because you saved the operating system on the emmc memory.
+
+
 
 
 
