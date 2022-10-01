@@ -81,12 +81,22 @@ turn on the banana pi if it's not already on.
 
 insert this sd card into a usb adaptor and connnect it to the banana pi.
 
+if the bananapi does not recognize the card or gives you an "unable to mount" error,
+
+type the following command: sudo apt install exfat-fuse exfat-utils
+
+(with internet connection only).
+
+disconnect the usb and connect it again, now the system should recognize it.
+
+
+
 
 4. burning the image on the EMMC.
 
 open the ubuntu mate terminal.
 
-if you can't see it on the top menu bar, go to menu icon->system tools->Mate terminal.
+if you can't see it on the top menu bar, look at the menu bar: Applications->system tools->Mate terminal.
 
 type the following command sudo fdisk -l.   (that's a lower case l in the end :)
 
@@ -94,13 +104,13 @@ if the terminal asks for a password the default one should be: bananapi .
 
 browse through the terminal output and you are supposed to see a file that weighs about 7 GB.
 
-remember in which mmcblk did this 7GB file appeared. should be in either mmcblk0 or mmcblk1.
+remember in which mmcblk did this 7GB file appear. should be in either mmcblk0 or mmcblk1.
 
 navigate with terminal to where the image file is. (on our second sd card).
 
-in my case here are the commands to navigate:
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/cmd.png)
 
-cd ..
+in my case here are the commands to navigate:
 
 cd ..
 
