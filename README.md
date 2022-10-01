@@ -58,7 +58,7 @@ you should see the default ubuntu desktop.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/desktop%20screen.jpg)
 if you have gotten so far, every thing should work all right.
 
-now you could start using the browser, development tools and all the applications you can play with the apps
+now you could start using the browser, development tools and all the applications
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/pre%20burn%20desktop.png)
 but we want to flash the image(operating system) on our EMMC,rather than using the sd card for the banana pi.
 
