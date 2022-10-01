@@ -55,11 +55,11 @@ connect an HDMI cable to a monitor and to the banana pi, connect a mouse and key
 turn the banana pi on.
 
 you should see the default ubuntu desktop.
-![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/desktop screen.jpg)
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/desktop%20screen.jpg)
 if you have gotten so far, every thing should work all right.
 
 now you could start using the browser, development tools and all the applications you can play with the apps
-![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/pre burn desktop.jpg)
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/pre%20burn%20desktop.png)
 but we want to flash the image(operating system) on our EMMC,rather than using the sd card for the banana pi.
 
 so our next step is to burn this operating system on our banana pi.
