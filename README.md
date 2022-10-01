@@ -15,31 +15,34 @@ balenaetcher: https://www.balena.io/etcher/
 
 ##  preaparing the sd card. 
 
-1.1 insert one of the 2 sd cards to your computer(the smaller sd card). 
+insert one of the 2 sd cards to your computer(the smaller sd card)
 
-1.2 open the sdcard formatter you downloaded, click on format. when the warning shows click yes.
+
+open the sdcard formatter you downloaded, click on format. when the warning shows click yes.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sdformatter-1.jpg)
-1.3 download a linux image file. this image file is the operating system we wish to have on our banana pi.
+
+
+download a linux image file. this image file is the operating system we wish to have on our banana pi.
 
 i will be downloading ubuntu 18.04 (zip file) from the following link:
 https://download.banana-pi.dev/d/ca025d76afd448aabc63/?p=%2FImages%2FBPI-M4%2Flinux&mode=list
-
 extract the file into a folder on your computer.
 
-1.4 open win32diskmanager.
+
+open win32diskmanager.
 
 click the blue folder icon and choose the image file you just downloaded from wherever you saved it.
 
-click write and wait a few minutes for it to finish.
+click write and wait 5-15 minutes for it to finish.
 
 
-1.5 open balenaetcher.
+open balenaetcher.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/balena1_page-0001.jpg)
 click flash from file and choose the same image file again.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/balena2_page-0001.jpg)
 click select target and choose the device to flash the image into, in this case the sd card.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/balena3_page-0001.jpg)
-click flash and wait 5-10 minutes for it to finish. 
+click flash and wait 5-15 minutes for it to finish. 
 
 once the flashing is finished eject the sd card from your computer.
 
@@ -69,13 +72,13 @@ so our next step is to burn this operating system on our banana pi.
 
 ## the other sd card:
 
-connect the other sd card to your computer.
+find the sd card that we have not used yet, connect to your computer.
 
 format the sd card with sd card formatter.
 
 open a folder in it called my_image or whatever name you want. 
 
-put the image(the full .img file, not the .zip) file in the my_image.
+put the image(the full .img file, not the .zip) file in the my_image. we dont flash the inmg file to it, just placing it there.
 
 make sure the sd card has enough storage for the image file, weirdly enough mine demanded a 64GB card.
 
@@ -95,7 +98,6 @@ disconnect the usb and connect it again, now the system should recognize it.
 
 
 
-
 ## burning the image on the EMMC.
 
 open the ubuntu mate terminal.
@@ -106,7 +108,7 @@ if you can't see it on the top menu bar, look at the menu bar: Applications->sys
 type the following command in the MATE terminal:
 (that's a minus and then lower case L in the end)
 ```
-sudo fdisk -l.   
+sudo fdisk -l   
 ```
 if the terminal asks for a password the default one should be: bananapi .
 
