@@ -11,7 +11,7 @@ win32diskmanager: https://sourceforge.net/projects/win32diskimager/
 balenaetcher: https://www.balena.io/etcher/
 
 
-## STEPS:
+# STEPS:
 
 ##  preaparing the sd card. 
 
