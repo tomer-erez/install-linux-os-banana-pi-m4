@@ -103,7 +103,7 @@ open the ubuntu mate terminal.
 if you can't see it on the top menu bar, look at the menu bar: Applications->system tools->Mate terminal.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/find%20terminal-1.jpg)
 
-type the following command:
+type the following command in the MATE terminal:
 (that's a minus and then lower case L in the end)
 ```
 sudo fdisk -l.   
@@ -141,7 +141,7 @@ you are supposed to see the image file name.
 
 copy its whole name via CTRL+C.
 
-type the following command:
+type the following command :
 
 (instead of your_image_file, paste the image file name you just copied)
 
