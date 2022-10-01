@@ -1,8 +1,8 @@
-##equipment:
+## equipment:
 
 2 sd cards, each one should be at least 8GB, but ideally one of those would be 64+ GB, sd card to usb adaptor.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/equipment.jpeg)
-##softwares to download:
+## softwares to download:
 
 sdcard formatter: https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/
 
@@ -11,8 +11,9 @@ win32diskmanager: https://sourceforge.net/projects/win32diskimager/
 balenaetcher: https://www.balena.io/etcher/
 
 
-STEPS:
-1. preaparing the sd card. 
+## STEPS:
+
+##  preaparing the sd card. 
 
 1.1 insert one of the 2 sd cards to your computer(the smaller sd card). 
 
@@ -21,7 +22,6 @@ STEPS:
 1.3 download a linux image file. this image file is the operating system we wish to have on our banana pi.
 
 i will be downloading ubuntu 18.04 (zip file) from the following link:
-
 https://download.banana-pi.dev/d/ca025d76afd448aabc63/?p=%2FImages%2FBPI-M4%2Flinux&mode=list
 
 extract the file into a folder on your computer.
@@ -44,7 +44,7 @@ click flash and wait 5-10 minutes for it to finish.
 once the flashing is finished eject the sd card from your computer.
 
 
-2. booting the banana pi.
+## booting the banana pi:
 
 under your banana pi turn the bool sel switch to 0.
 
@@ -67,7 +67,7 @@ but we want to flash the image(operating system) on our EMMC,rather than using t
 so our next step is to burn this operating system on our banana pi.
 
 
-3. the other sd card.
+## the other sd card:
 
 connect the other sd card to your computer.
 
@@ -96,7 +96,7 @@ disconnect the usb and connect it again, now the system should recognize it.
 
 
 
-4. burning the image on the EMMC.
+## burning the image on the EMMC.
 
 open the ubuntu mate terminal.
 
