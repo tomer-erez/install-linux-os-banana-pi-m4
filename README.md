@@ -102,8 +102,12 @@ open the ubuntu mate terminal.
 
 if you can't see it on the top menu bar, look at the menu bar: Applications->system tools->Mate terminal.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/find%20terminal-1.jpg)
-type the following command sudo fdisk -l.   (that's a lower case l in the end :)
 
+type the following command:
+(that's a minus and then lower case L in the end)
+```
+sudo fdisk -l.   
+```
 if the terminal asks for a password the default one should be: bananapi .
 
 browse through the terminal output and you are supposed to see a file that weighs about 7 GB.
