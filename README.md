@@ -139,9 +139,9 @@ type the following command:
 
 (instead of your_image_file, paste the image file name you just copied)
 
-(mmcblk0 or mmcblk1 according to where that 7 GB file is)
+(mmcblk0 or mmcblk1 according to where that 7 GB file is, should be 1)
 ```
-sudo dd if=your_image_file of=/dev/mmcblk0 bs=10MB.
+sudo dd if=your_image_file of=/dev/mmcblk1 bs=10MB.
 ```
 after 10 minutes or so the proccess should end.
 
@@ -150,6 +150,7 @@ turn off the banana pi and extract both sd cards: the one with the usb adaptor a
 turn on the banana pi.
 
 and you are done. you finished installing ubuntu mate on your banana pi.
+
 
 
 
