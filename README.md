@@ -154,7 +154,7 @@ type the following command :
 ```
 sudo dd if=your_image_file of=/dev/mmcblk1 bs=10MB.
 ```
-after 10 minutes or so the proccess should end.
+after 10-20 minutes the proccess should end.
 
 turn off the banana pi and extract both sd cards: the one with the usb adaptor and the one in the sd card slot.
 
