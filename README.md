@@ -131,6 +131,9 @@ cd ..
 cd media 
 ```
 ```
+cd pi
+```
+```
 cd <sd card name, could be BPI-BOOT>
 ```
 ```
