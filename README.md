@@ -47,7 +47,7 @@ once the flashing is finished eject the sd card from your computer.
 under your banana pi turn the bool sel switch to 0.
 
 insert your sd card into the micro sd slot thats under the banana pi.
-![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sel switch-1.jpg)
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/sel%20switch-1.jpg)
 plug-in the power supply for your banana pi.
 
 connect an HDMI cable to a monitor and to the banana pi, connect a mouse and keyboard to the banana's USB slots.
