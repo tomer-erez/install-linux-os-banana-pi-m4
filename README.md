@@ -3,9 +3,7 @@ equipment: 2 sd cards, each one should be at least 8GB, but ideally one of those
 softwares to download:
 
 sdcard formatter: https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/
-
 win32diskmanager: https://sourceforge.net/projects/win32diskimager/
-
 balenaetcher: https://www.balena.io/etcher/
 
 
@@ -83,7 +81,7 @@ insert this sd card into a usb adaptor and connnect it to the banana pi.
 
 if the bananapi does not recognize the card or gives you an "unable to mount" error,
 
-type the following command: sudo apt install exfat-fuse exfat-utils
+type the following command in the MATE terminal(Applications->system tools->Mate terminal): sudo apt install exfat-fuse exfat-utils
 
 (with internet connection only).
 
