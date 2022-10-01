@@ -1,5 +1,5 @@
 equipment: 2 sd cards, each one should be at least 8GB, but ideally one of those would be 64+ GB, sd card to usb adaptor.
-
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/equipment.jpeg)
 softwares to download:
 
 sdcard formatter: https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/
