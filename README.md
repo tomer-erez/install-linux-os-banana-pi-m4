@@ -129,7 +129,7 @@ cd ..
 cd media 
 ```
 ```
-cd <sd card name, could be BPI-ROOT>
+cd <sd card name, could be BPI-BOOT>
 ```
 ```
 cd my_image
