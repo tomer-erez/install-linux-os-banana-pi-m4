@@ -28,8 +28,9 @@ open the sdcard formatter you downloaded, click on format. when the warning show
 
 download a linux image file. this image file is the operating system we wish to have on our banana pi.
 
-i will be downloading ubuntu 18.04 (zip file) from the following link:
+i will be downloading ubuntu 18.04 (zip file) from the following link: 
 https://download.banana-pi.dev/d/ca025d76afd448aabc63/?p=%2FImages%2FBPI-M4%2Flinux&mode=list
+
 extract the file into a folder on your computer.
 
 
