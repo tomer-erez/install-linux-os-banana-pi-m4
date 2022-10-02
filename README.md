@@ -1,8 +1,14 @@
-## equipment:
+## youtube link:
+
+the youtube video only show steps 5 and 6 because the earlier steps are pretty straight forward
+
+https://youtu.be/zKRxDWJ1Yg4
+
+## 1.equipment:
 
 2 sd cards, each one should be at least 8GB, but ideally one of those would be 64+ GB, sd card to usb adaptor.
 ![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/equipment.jpeg)
-## softwares to download:
+## 2.softwares to download:
 
 sdcard formatter: https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/
 
@@ -11,9 +17,7 @@ win32diskmanager: https://sourceforge.net/projects/win32diskimager/
 balenaetcher: https://www.balena.io/etcher/
 
 
-# STEPS:
-
-##  preaparing the sd card. 
+##  3.preaparing the sd card. 
 
 insert one of the 2 sd cards to your computer(the smaller sd card)
 
@@ -47,7 +51,7 @@ click flash and wait 5-15 minutes for it to finish.
 once the flashing is finished eject the sd card from your computer.
 
 
-## booting the banana pi:
+## 4.booting the banana pi:
 
 under your banana pi turn the bool sel switch to 0.
 
@@ -70,7 +74,7 @@ but we want to flash the image(operating system) on our EMMC,rather than using t
 so our next step is to burn this operating system on our banana pi.
 
 
-## the other sd card:
+## 5.the other sd card:
 
 find the sd card that we have not used yet, connect to your computer.
 
@@ -99,7 +103,7 @@ disconnect the usb and connect it again, now the system should recognize it.
 
 
 
-## burning the image on the EMMC.
+## 6.burning the image on the EMMC.
 
 open the ubuntu mate terminal.
 
