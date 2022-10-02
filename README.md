@@ -37,7 +37,7 @@ extract the file into a folder on your computer.
 open win32diskmanager.
 
 click the blue folder icon and choose the image file you just downloaded from wherever you saved it.
-
+![alt text](https://github.com/tomer-erez/install-linux-os-banana-pi-m4/blob/main/banana%20instructions/win32.jpg)
 click write and wait 5-15 minutes for it to finish.
 
 
