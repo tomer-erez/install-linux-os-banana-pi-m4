@@ -1,6 +1,5 @@
 ## youtube link:
 
-the youtube video only show steps 5 and 6 because the earlier steps are pretty straight forward
 
 https://youtu.be/ggm2PcPYBQY
 
