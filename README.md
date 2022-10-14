@@ -160,7 +160,7 @@ type the following command :
 
 (mmcblk0 or mmcblk1 according to where that 7 GB file is, should be 1)
 ```
-sudo dd if=your_image_file of=/dev/mmcblk1 bs=10MB.
+sudo dd if=your_image_file of=/dev/mmcblk1 bs=10MB
 ```
 after 10-20 minutes the proccess should end.
 
